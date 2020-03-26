@@ -122,7 +122,7 @@ ul.blog_list_info {
 
 .blog_info h4 {
     font-size: 1em;
-    color:#00c389;
+    color: #F89C32;
     letter-spacing: 1px;
     font-weight: 400;
 }
@@ -139,7 +139,7 @@ ul.blog_list_info {
      font-size:1.6em;
 }
 .blog_info p a.user-blog {
-    color:#00c389;
+    color: #F89C32;
     text-transform: capitalize;
     font-size: 1em;
 }
@@ -155,7 +155,7 @@ ul.blog_list_info li span {
     padding-right: 8px;
 }
 ul.blog_list_info li span:hover{
-    color:#00c389;
+    color: #F89C32;
 }
 ul.blog_list_info li i {
     padding: 0 1em;
@@ -277,7 +277,7 @@ h5.mt-0 {
 }
 
 .card-header button.btn.btn-link {
-    color:#00c389;
+    color: #F89C32;
     font-weight: 600;
 }
 
@@ -323,7 +323,7 @@ h5.mt-0 {
 }
 
 .comment-top input[type="submit"]:hover {
-    background:#00c389;
+    background: #F89C32;
 }
 
 .single-gd-wthree-agileits form input[type="email"] {
@@ -340,7 +340,7 @@ h5.mt-0 {
 }
 
 .single-gd-wthree-agileits form input[type="submit"] {
-    background:#00c389;
+    background: #F89C32;
     padding: .8em 1em;
     color: #fff;
     font-size: 15px;
@@ -366,7 +366,7 @@ h5.mt-0 {
 
 .comment h3,
 .comment-top h4 {
-    color:#00c389;
+    color: #F89C32;
     font-size: 1.4em;
     text-align: left;
     padding: 0 0 0.5em;

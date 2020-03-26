@@ -234,3 +234,46 @@ button.close{
   /*  background-color: darkgreen; */
 }
 
+.services .project *{
+    color: #ff6a00;
+}
+.services .project i{
+    font-size: 15px;
+}
+
+.services .project:hover *{
+    opacity: 0.8;
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+}
+
+.logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.button-wrapper .btn-gold{
+    color: white;
+    background-color: #ff6a00;
+    padding: 8px 40px;
+    border-radius: 0;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-gold:hover{
+    opacity: 0.8;
+}

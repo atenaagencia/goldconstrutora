@@ -6,92 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="keywords" content="Gold Construtora" />
-
-    <script>
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-
-    </script>
-    <link href="css/newStyle.css" rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-    <link href="css/simpleLightbox.css" rel='stylesheet' type='text/css' />
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800" rel="stylesheet">
+    @include('site.layouts.imports')
 </head>
-
 <body>
     <header>
         <div class="header_top" id="home">
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top" style="position: fixed;">
-                <div class="logo text-left">
-                    <h1>
-                        <a class="navbar-brand" href="index.html">
-                            <img src="./images/gold-logo.png" alt="Gold Construtora"></a>
-                    </h1>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">
-                            </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-lg-auto text-right">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link tooltip-blog" href="blog.html">Blog <span>New</span></a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Dropdown
-                                       <i class="fas fa-angle-down"></i>
-                                    </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="project.html">Projects</a>
-                                <a class="dropdown-item" href="error.html" title="">404</a>
-                            </div>
-                        </li> -->
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Equipe</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Parceiros</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contato</a>
-                        </li>
-
-                    </ul>
-                    <ul class="navbar-nav ml-auto navbar-mobile">
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                            
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-
+            @include('site.layouts.navbar')
         </div>
     </header>
     <!--//header-->
@@ -387,11 +307,6 @@
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Conjuntos Habitacionais
                                     </h3>
-                                    <p>Eunápolis-BA: 740 unidades habitacionais.
-                                        Campo Verde-BA: 415 unidades habitacionais.
-                                        Jurema-PE: 100 unidades habitacionais.
-                                        Senhor do Bonfim-BA: 150 unidades habitacionais.
-                                        Conceição do Coité-BA: 250 unidades habitacionais.</p>
                                 </div>
                             </div>
                         </a>
@@ -402,11 +317,6 @@
                                 <img src="images/gold-projects/jua-garden.jpg" alt=" " class="img-fluid" />
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Jua Garden Shopping - BA</h3>
-                                    <p>Execução de Sitema Viário Externo.
-                                        Execução e Revitalização de Drenagem Pluvial Externa.
-                                        Adequação de Sitema de SPK e Hidrante.
-                                        Adequação em Instalações de Água Gelada.
-                                        Substação e Aterramento Elétrico/Eletrônico dos Cinemas.</p>
                                 </div>
                             </div>
                         </a>
@@ -419,11 +329,7 @@
                                 <img src="images/gold-projects/shopping-recife.jpg" alt=" " class="img-fluid" />
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Shopping Recife - PE</h3>
-                                    <p>Revitalização do Parques das Esculturas.
-                                        Casa Pio Calçados.
-                                        Substituição e Modernização de Escadas Rolantes.
-                                        Revitalização de C.A.G.
-                                        Recuperação de Destino Final de Esgoto.</p>
+                                    
                                 </div>
                             </div>
                         </a>
@@ -435,7 +341,7 @@
                                 <img src="images/g6.jpg" alt=" " class="img-fluid" />
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Transnordestina</h3>
-                                    <p>Trecho da Transnordestina - Serra Talhada - PE</p>
+                                    
                                 </div>
                             </div>
                         </a>
@@ -448,9 +354,7 @@
                                 <img src="images/gold-projects/Plaza-casa.png" alt="Shopping Plaza" class="img-fluid" />
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Shopping Plaza Casa Forte - CE</h3>
-                                    <p>Recuperação de Banheiros Sociais.
-                                        Projeto de Estrutura para Ampliação.
-                                        Sergio's Calçados.</p>
+                                   
                                 </div>
                             </div>
                         </a>
@@ -461,7 +365,7 @@
                                 <img src="images/gold-projects/metro.jpg" alt=" " class="img-fluid" />
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Trensurb</h3>
-                                    <p>Ampliação do Metrô de Porto Alegre (Trensurb)</p>
+                                   
                                 </div>
                             </div>
                         </a>
@@ -469,9 +373,63 @@
                     
                 </div>
             </div>
+            <div class="button-wrapper">
+                <a href="/projetos" class="btn btn-gold">Ver mais</a>
+            </div>
         </div>
     </section>
     <!--//Projects-->
+    <section class="partners">
+        <div class="container">
+            <h3 class="tittle">Nossos parceiros</h3>
+            <div class="row py-5 mb-4">
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc1.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc2.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc3.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc4.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc5.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc6.jpg')}}" alt="">                     
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc7.jpg')}}" alt="">
+                    </div>  
+                </div>
+                <div class="col-md-3" data-aos="zoom-in">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="{{ asset('images/partners/parc8.jpg')}}" alt="">
+                    </div>
+                </div>                           
+            </div>
+            <div class="button-wrapper">
+                <a href="/parceiros" class="btn btn-gold">Ver mais</a>
+            </div>
+          
+        </div>
+    </section>
     <!--reviews_sec-->
     <section class="reviews_sec" id="testimonials">
         <h3 class="tittle cen">Depoimentos</h3>
@@ -583,164 +541,8 @@
     </section>
     <!---->
     <!--footer-->
-    <footer>
-        <div class="container">
-            <div class="row footer-top-w3layouts">
-                <div class="col-lg-4 footer-grid-w3ls" data-aos="zoom-in">
-                    <div class="footer-title">
-                        <h2>Sobre nós</h2>
-                    </div>
-                    <div class="footer-text">
-                        <p>Nascida em Petrolina, a GOLD CONSTRUTORA LTDA, capacitou-se na execução de Projetos Estruturais, Projetos de Engenharia, Industriais, Comerciais e Prediais, Consultoria e Gerenciamento.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 footer-grid-w3ls" data-aos="zoom-in">
-                    <div class="footer-title">
-                        <h3>Contato</h3>
-                    </div>
-                    <div class="footer-office-hour">
-                        <ul>
-                            <li class="hd">Endereço:</li>
-                            <li>Avenida da Integração 855, Vila Eduardo, Petrolina-PE. CEP: 56.328-010.</li>
-
-                        </ul>
-                        <ul>
-                            <li class="hd">Telefone:
-                                <a href="">+55 87 3864-2799</a>
-                            </li>
-                            <li class="hd">Email:
-                                <a href="mailto:info@example.com">adm@construtoragold.com.br</a>
-                            </li>
-                            <li class="hd">Site:
-                                <a href="www.construtoragold.com.br">www.construtoragold.com.br</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 footer-grid-w3ls" data-aos="zoom-in">
-                    <div class="footer-title">
-                        <h3>Localização</h3>
-                        <div style="overflow:hidden;width: 400px;position: relative;"><iframe width="400" height="300" src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=gold%20construtora%2C%20petrolina-pe+(Gold%20Construtora)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a> & <a href="https://rechargevodafone.co.uk">www.rechargevodafone.co.uk</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-    <!---->
-    <div class="copyright">
-        <div class="container">
-            <div class="copyrighttop" data-aos="fade-left">
-                <ul>
-                    <li>
-                        <h4>Siga-nos no:</h4>
-                    </li>
-                    <li>
-                        <a class="facebook" href="#">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-                    </li>
-                    <li>
-                        <a class="facebook" href="#">
-							<i class="fab fa-instagram"></i>
-						</a>
-                    </li>
-                    <li>
-                        <a class="facebook" href="#">
-							<i class="fab fa-whatsapp"></i>
-						</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="copyrightbottom" data-aos="fade-right">
-                <p>© 2019 Gold Construtora.
-                    Todos os direitos reservados. | Design por
-                    <a class="text-primary" href="http://atenaagencia.com.br/">Atena Agência</a>
-                </p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <script src="js/scrollbar.js"></script>
-    <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
-    <!-- //js -->
-    <!-- simpleLightbox -->
-    <script src="js/simpleLightbox.js"></script>
-    <script>
-        $('.proj_gallery_grid a').simpleLightbox();
-
-    </script>
-    <!-- //simpleLightbox -->
-	 <!-- /js files -->
-	<link href='css/aos.css' rel='stylesheet prefetch' type="text/css" media="all" />
-	<link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
-	<script src='js/aos.js'></script>
-	<script src="js/aosindex.js"></script>
-	<!-- //js files -->
-    <!-- flexSlider -->
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script>
-        $(window).load(function() {
-            $('.flexslider').flexslider({
-                animation: "slide",
-                start: function(slider) {
-                    $('body').removeClass('loading');
-                }
-            });
-        });
-
-    </script>
-
-    <!-- //flexSlider -->
-
-    <!-- stats -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.countup.js"></script>
-    <script>
-        $('.counter').countUp();
-
-    </script>
-    <!-- //stats -->
-
-    <!-- start-smoth-scrolling -->
-    <script src="js/move-top.js"></script>
-    <script src="js/easing.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 900);
-            });
-        });
-
-    </script>
-    <!-- start-smoth-scrolling -->
-
-    <script>
-        $(document).ready(function() {
-            /*
-            						var defaults = {
-            				  			containerID: 'toTop', // fading element id
-            							containerHoverID: 'toTopHover', // fading element hover id
-            							scrollSpeed: 1200,
-            							easingType: 'linear' 
-            				 		};
-            						*/
-
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
-
-    </script>
-
-    <!-- /js -->
-    <script src="js/bootstrap.js"></script>
-    <!-- //js -->
+    @include('site.layouts.footer')
+ 
 
 
 </body>
