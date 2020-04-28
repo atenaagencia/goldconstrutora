@@ -370,18 +370,8 @@
                             </div>
                         </a>
                     </div>
-            
-                    <div class="section_1_gallery_grid" data-aos="zoom-in">
-                        <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g6.jpg">
-                            <div class="section_1_gallery_grid1">
-                                <img src="images/g6.jpg" alt=" " class="img-fluid" />
-                                <div class="proj_gallery_grid1_pos">
-                                    <h3>Transnordestina</h3>
-                                    
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+           
+                   
                 </div>
                 <div class="col-md-4 proj_gallery_grid" data-aos="zoom-in">
                     <div class="section_1_gallery_grid">
@@ -390,12 +380,13 @@
                                 <img src="images/gold-projects/Plaza-casa.png" alt="Shopping Plaza" class="img-fluid" />
                                 <div class="proj_gallery_grid1_pos">
                                     <h3>Shopping Plaza Casa Forte - CE</h3>
-                                   
+                    
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="section_1_gallery_grid" data-aos="zoom-in">
+                   
+                    {{-- <div class="section_1_gallery_grid" data-aos="zoom-in">
                         <a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/g5.jpg">
                             <div class="section_1_gallery_grid1">
                                 <img src="images/gold-projects/metro.jpg" alt=" " class="img-fluid" />
@@ -406,11 +397,11 @@
                             </div>
                         </a>
                     </div>
-                    
+                     --}}
                 </div>
             </div>
             <div class="button-wrapper">
-                <a href="/projetos" class="btn btn-gold">Ver mais</a>
+                <a href="projetos" class="btn btn-gold">Ver mais</a>
             </div>
         </div>
     </section>
