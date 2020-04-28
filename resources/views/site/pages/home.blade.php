@@ -141,7 +141,7 @@
     </section>
     <!---->
     <!-- /stats -->
-    <section class="stats_test container-fluid">
+    {{-- <section class="stats_test container-fluid">
         <div class="container full-height">
                     <div class="row justify-content-md-center margin-top">
                         <div class="col-12 col-sm-6 col-md-3 pt-4">
@@ -202,7 +202,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
     <!-- //stats -->
     <!--/services-->
     <section class="services">
