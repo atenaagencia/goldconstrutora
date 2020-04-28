@@ -11,11 +11,11 @@
                     <div class="carousel-caption">
                         <h3>Somos mais do que uma empresa industrial</h3>
 
-                        <div class="bnr-button">
+                        {{-- <div class="bnr-button">
                             <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
 								<i class="fas fa-play"></i>
 							</button>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
@@ -23,22 +23,22 @@
                     <div class="carousel-caption">
                         <h3>Transformando grandes idéias em ótimos produtos</h3>
 
-                        <div class="bnr-button">
+                        {{-- <div class="bnr-button">
                             <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
 								<i class="fas fa-play"></i>
 							</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="carousel-item item3">
                     <div class="carousel-caption">
                         <h3>Sua sastifação é a nossa motivação</h3>
-
+{{-- 
                         <div class="bnr-button">
                             <button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
 								<i class="fas fa-play"></i>
 							</button>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>

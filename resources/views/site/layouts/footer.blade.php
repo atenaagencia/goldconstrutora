@@ -24,7 +24,7 @@
                                 <a href="">+55 87 3864-2799</a>
                             </li>
                             <li class="hd">Email:
-                                <a href="mailto:info@example.com">adm@construtoragold.com.br</a>
+                                <a href="mailto:engenharia@construtoragold.com.br">engenharia@construtoragold.com.br</a>
                             </li>
                             <li class="hd">Site:
                                 <a href="www.construtoragold.com.br">www.construtoragold.com.br</a>

@@ -19,9 +19,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/sobre">Sobre</a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link tooltip-blog" href="/blog">Blog <span>New</span></a>
-            </li>
+            </li> --}}
             <li class="nav-item">
                 <a class="nav-link" href="/projetos">Projetos</a>
             </li>

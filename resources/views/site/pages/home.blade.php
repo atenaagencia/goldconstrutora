@@ -34,7 +34,7 @@
     </div>
     <!--//model-->
     <!--//banner-->
-    <section>
+    {{-- <section>
         <div class="container">
             <h1 class="text-center p-5 " style="color: #F89C32;">Ultimas postagens</h1>
             <div class="row">
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="banner-bottom">
         <div class="container">
 
@@ -215,8 +215,8 @@
                             <!-- <span class="icon">
 								<i class="fas fa-laptop"></i>
 							</span> -->
-                            <h5>Titulo </h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <h5>PROJETOS DE ENGENHARIA</h5>
+                            <p>Desenvolvimento de projetos executivos de engenharia.</p>
                         </div>
                     </div>
                     <div class="grid_info second">
@@ -224,12 +224,30 @@
                             <!-- <span class="icon">
 								<i class="far fa-clone"></i>
 							</span> -->
-                            <h5>Titulo </h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <h5>LAUDOS E VISTORIAS </h5>
+                            <p>Laudos periciais de engenharia para fins de entrega e recebimento de obras, avaliação de risco e necessidades afins</p>
+                        </div>
+                    </div>
+                    <div class="grid_info second">
+                        <div class="icon_info">
+                            <!-- <span class="icon">
+                    								<i class="far fa-clone"></i>
+                    							</span> -->
+                            <h5>LAUDO DE AVALIAÇÃO</h5>
+                            <p>Laudo de avaliações de engenharia para mercado imobiliário e financeiro.</p>
+                        </div>
+                    </div>
+                    <div class="grid_info second">
+                        <div class="icon_info">
+                            <!-- <span class="icon">
+                    								<i class="far fa-clone"></i>
+                    							</span> -->
+                            <h5>MANUTENÇÃO PREDIAL</h5>
+                            <p>Serviços de engenharia relacionados a manutenção predial de edificações.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 grid_info_main mid" data-aos="flip-down">
+                <div class="col-lg-4 grid_info_main mid" data-aos="flip-down" >
                     <img src="images/ab.jpg" class="img-fluid" alt=" ">
                 </div>
                 <div class="col-lg-4 grid_info_main" data-aos="flip-right">
@@ -238,8 +256,8 @@
                             <!-- <span class="icon">
 								<i class="fas fa-sitemap"></i>
 							</span> -->
-                            <h5>Titulo </h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <h5>RECUPERAÇÃO ESTRUTURAL </h5>
+                            <p>Serviços relacionados a recuperação de edificações devido a problemas patológicos.</p>
                         </div>
                     </div>
                     <div class="grid_info second">
@@ -247,8 +265,26 @@
                             <!-- <span class="icon">
 								<i class="fab fa-android"></i>
 							</span> -->
-                            <h5>Titulo </h5>
-                            <p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+                            <h5>OBRA CIVIL </h5>
+                            <p>Obras de engenharia civil, residenciais, comerciais, industriais.</p>
+                        </div>
+                    </div>
+                    <div class="grid_info second">
+                        <div class="icon_info">
+                            <!-- <span class="icon">
+                    								<i class="fab fa-android"></i>
+                    							</span> -->
+                            <h5>OBRA DE INSTALAÇÕES </h5>
+                            <p>Obras relacionadas a instalações prediais e industriais, elétrica, hidráulica, sistemas de segurança e afins.</p>
+                        </div>
+                    </div>
+                    <div class="grid_info second">
+                        <div class="icon_info">
+                            <!-- <span class="icon">
+                    								<i class="fab fa-android"></i>
+                    							</span> -->
+                            <h5>  OBRA DE INFRAESTRUTURA</h5>
+                            <p>Obras relacionadas a sistemas estruturantes, drenagens, contenções e afins.</p>
                         </div>
                     </div>
                 </div>
