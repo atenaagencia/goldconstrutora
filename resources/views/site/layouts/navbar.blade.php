@@ -34,11 +34,11 @@
         </ul>
         <ul class="navbar-nav ml-auto navbar-mobile">
             <li class="nav-item">
-                <a class="nav-link" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a class="nav-link" href="http://www.facebook.com/goldconstrutorape"><i class="fab fa-facebook-f"></i></a>
                 
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a class="nav-link" href="http://www.instagram.com/goldconstrutora"><i class="fab fa-instagram"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
